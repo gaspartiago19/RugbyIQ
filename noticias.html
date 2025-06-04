@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Noticias de Rugby</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #2e8b57 url('https://www.transparenttextures.com/patterns/green-dust-and-scratches.png');
+    }
+    h1 {
+      color: #f5f5dc;
+      text-align: center;
+      margin-bottom: 40px;
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5em;
+    }
+    .news-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .news-box {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s;
+    }
+    .news-box:hover {
+      transform: scale(1.02);
+    }
+    .news-box a {
+      color: #1a5276;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+    .news-box a:hover {
+      text-decoration: underline;
+    }
+    .news-box p {
+      color: #333333;
+      margin-top: 8px;
+    }
+
+    .rugby-ball {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      width: 50px;
+      z-index: 1000;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <a href="index.html" title="Voltar à página inicial">
+    <img src="Rugby-Ball-PNG-Image.png" 
+         alt="Voltar ao Início" class="rugby-ball">
+  </a>
+
+  <h1>Atualiza-te quanto ao rugby!</h1>
+  <div class="news-container">
+    <div class="news-box">
+      <a href="https://www.world.rugby/news" target="_blank" rel="noopener">World Rugby News</a>
+      <p>O site oficial da organização mundial de rugby, com notícias globais, vídeos e informações sobre torneios internacionais.</p>
+    </div>
+    <div class="news-box">
+      <a href="https://www.planetrugby.com" target="_blank" rel="noopener">Planet Rugby</a>
+      <p>Notícias, análises e atualizações do rugby mundial, incluindo campeonatos e seleções nacionais.</p>
+    </div>
+    <div class="news-box">
+      <a href="https://www.rugbypass.com" target="_blank" rel="noopener">Rugbypass</a>
+      <p>Conteúdos detalhados, reportagens, análises táticas e vídeos sobre rugby de todos os níveis.</p>
+    </div>
+    <div class="news-box">
+      <a href="https://www.therugbypaper.co.uk" target="_blank" rel="noopener">The Rugby Paper</a>
+      <p>Jornal britânico dedicado ao rugby, com artigos, entrevistas e cobertura de ligas europeias.</p>
+    </div>
+    <div class="news-box">
+      <a href="https://www.espn.com/rugby" target="_blank" rel="noopener">ESPN Rugby</a>
+      <p>Notícias rápidas, resultados, estatísticas e vídeos, com foco também no rugby americano.</p>
+    </div>
+    <div class="news-box">
+      <a href="https://www.rugbyrama.fr" target="_blank" rel="noopener">Rugbyrama</a>
+      <p>Portal francês com ampla cobertura do rugby, tanto europeu quanto internacional.</p>
+    </div>
+    <div class="news-box">
+      <a href="https://www.planet7rugby.com" target="_blank" rel="noopener">Planet 7 Rugby</a>
+      <p>Especializado em rugby 7, com notícias e atualizações de torneios da modalidade.</p>
+    </div>
+    <div class="news-box">
+      <a href="https://www.rugbynet.co.nz" target="_blank" rel="noopener">RugbyNet NZ</a>
+      <p>Site neozelandês focado em notícias nacionais e internacionais do rugby.</p>
+    </div>
+    <div class="news-box">
+      <a href="https://www.rugbymag.com" target="_blank" rel="noopener">Rugby Magazine</a>
+      <p>Revista online com artigos, notícias e dicas sobre rugby.</p>
+    </div>
+    <div class="news-box">
+      <a href="https://www.jornaldenoticias.pt/tema/rugby" target="_blank" rel="noopener">Jornal de Notícias - Rugby (Portugal)</a>
+      <p>Seção do jornal português dedicada ao rugby, com notícias locais e internacionais.</p>
+    </div>
+  </div>
+</body>
+</html>

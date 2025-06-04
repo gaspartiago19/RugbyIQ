@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Locais para praticar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #2e8b57 url('https://www.transparenttextures.com/patterns/green-dust-and-scratches.png'); /* verde escuro com padrão leve */
+    }
+    h1 {
+      color: #f5f5dc; 
+      text-align: center;
+      margin-bottom: 40px;
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5em;
+    }
+    .club-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .club-box {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s;
+    }
+    .club-box:hover {
+      transform: scale(1.02);
+    }
+    .club-box a {
+      color: #1a5276;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+    .club-box a:hover {
+      text-decoration: underline;
+    }
+    .club-box p {
+      color: #333333;
+    }
+
+    .rugby-ball {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      width: 50px;
+      z-index: 1000;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <a href="index.html" title="Voltar à página inicial">
+    <img src="Rugby-Ball-PNG-Image.png" 
+         alt="Voltar ao Início" class="rugby-ball">
+  </a>
+
+  <h1>Gostavas de competir?</h1>
+  <div class="club-container">
+    <div class="club-box">
+      <a href="https://cduprugby.com/" target="_blank">CDUP (Porto)</a>
+      <p>Clube ligado à universidade, com várias equipas e tradição competitiva.</p>
+    </div>
+    <div class="club-box">
+      <a href="https://www.facebook.com/sport.rugby.clube.do.porto" target="_blank">Sport Rugby Clube do Porto</a>
+      <p>Alternativa sólida com foco em diferentes faixas etárias.</p>
+    </div>
+    <div class="club-box">
+      <a href="https://www.rugbyaac.com" target="_blank">AAC Rugby (Coimbra)</a>
+      <p>Histórico clube universitário com reputação nacional.</p>
+    </div>
+    <div class="club-box">
+      <a href="https://www.cdulrugby.pt" target="_blank">CDUL (Lisboa)</a>
+      <p>Clube Desportivo Universitário de Lisboa, com escalões de formação e séniores.</p>
+    </div>
+    <div class="club-box">
+      <a href="https://www.osbelenensesrugby.pt" target="_blank">Belenenses Rugby (Lisboa)</a>
+      <p>Tradicional clube com boas infraestruturas no Restelo.</p>
+    </div>
+    <div class="club-box">
+      <a href="https://www.crtecnico.com" target="_blank">CR Técnico (Lisboa)</a>
+      <p>Localizado no Estádio Universitário, com grande atividade juvenil e sénior.</p>
+    </div>
+    <div class="club-box">
+      <a href="https://www.facebook.com/rugbyclubedeoeiras" target="_blank">Rugby Clube de Oeiras</a>
+      <p>Ideal para iniciantes, com foco no desenvolvimento da modalidade.</p>
+    </div>
+    <div class="club-box">
+      <a href="https://www.agronomia.pt/rugby" target="_blank">Agronomia Rugby (Lisboa)</a>
+      <p>Clube competitivo com atividades masculinas e femininas.</p>
+    </div>
+    <div class="club-box">
+      <a href="https://www.crevora.pt" target="_blank">CR Évora (Alentejo)</a>
+      <p>Destaca-se pela formação e competição regional.</p>
+    </div>
+    <div class="club-box">
+      <a href="https://www.rcloule.pt" target="_blank">RC Loulé (Algarve)</a>
+      <p>Um dos poucos clubes ativos na região sul.</p>
+    </div>
+  </div>
+</body>
+</html>
